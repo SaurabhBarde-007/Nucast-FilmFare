@@ -3,6 +3,9 @@ import { Inter } from "next/font/google";
 import styles from "../styles/homebg.module.css";
 import { motion } from "framer-motion";
 import Landing from "@/components/Landing"
+import Companies from "@/components/Companies"
+import Offers from "@/components/Offers"
+import ConnectUs from "@/components/ConnectUs"
 
 import { buttonAnim, fadeIn } from "../motion";
 
@@ -13,7 +16,9 @@ export default function Home() {
     <>
       <main className="w-[100vw] h-auto overflow-hidden"> 
         <Landing/>
-        
+        <Companies/>
+        <Offers/>
+        <ConnectUs/>
       </main>
         
     </>

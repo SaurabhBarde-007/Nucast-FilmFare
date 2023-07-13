@@ -12,8 +12,8 @@ const Landing = () => {
             </div>
             <div className="absolute right-[-50px] top-[-15px] flex justify-center items-center">
                 <div className={`w-64 h-64 bg-[#8B7BCF] rounded-full filter blur-[70px]`}></div>
-            </div>
-            <div className="w-[500px] font-semibold leading-[100px] mt-[50px] text-[100px] text-[#fff]"> Attract NewLeads like never before </div>
+            </div>                                                                                                                 
+            <div className="w-[500px] font-semibold leading-[90px] mt-[40px] text-[90px] text-[#fff]"> Attract <span className="bg-gradient-to-r from-[#9F8CED] from-1% via-[#FA7C0B] via-90% to-[#9DE8EE] to-9% text-transparent bg-clip-text">NewLeads</span> like never before </div>
             <div className="flex justify-center items-center text-left whitespace-normal">
                 <p className="w-[500px] font-thin text-left whitespace-normal p-2">Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat scelerisque in elit. Morbi rhoncus, tellus, eros </p> 
             </div>
