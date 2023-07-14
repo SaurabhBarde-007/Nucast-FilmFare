@@ -6,7 +6,7 @@ const OfferCard = (props) => {
     const {src,heading,text} = props
   return (
     <>
-        <div className='flex flex-col justify-start items-start p-[20px] w-[324px] border-[1px] gap-3 border-[#fff]'>
+        <div className='flex flex-col justify-start items-start p-[20px] w-[324px] border-[1px] gap-3 border-[#fff] rounded-md'>
             <div className='flex justify-start items-center mt-[8px]'>
                 <img src={src} className='w-[44px] object-cover'/>
             </div>

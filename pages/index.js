@@ -6,6 +6,8 @@ import Landing from "@/components/Landing"
 import Companies from "@/components/Companies"
 import Offers from "@/components/Offers"
 import ConnectUs from "@/components/ConnectUs"
+import OurWork from "@/components/OurWork"
+import CommingSoon from "@/components/CommingSoon"
 
 import { buttonAnim, fadeIn } from "../motion";
 
@@ -15,10 +17,12 @@ export default function Home() {
   return (
     <>
       <main className="w-[100vw] h-auto overflow-hidden"> 
-        <Landing/>
+        {/* <Landing/>
         <Companies/>
         <Offers/>
         <ConnectUs/>
+        <OurWork/> */}
+        <CommingSoon/>
       </main>
         
     </>
