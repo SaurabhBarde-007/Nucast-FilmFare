@@ -5,7 +5,7 @@ import styles from "../styles/homebg.module.css";
 const ConnectUs = () => {
   return (
     <>
-      <div className="flex w-[100vw] justify-evenly flex-col sm:flex-row items-center h-auto px-[15px] py-[40px] sm:px-[30px] sm:py-[80px] overflow-hidden">
+      <div className="flex w-[100vw] justify-evenly flex-col sm:flex-row items-center h-auto px-[15px] py-[40px] sm:px-[30px] sm:py-[80px] overflow-hidden bg-transparent">
         <div className="flex w-[100vw] sm:w-[40%] justify-center items-center overflow-hidden">
           <img src="./User.png" className="object-cover"/>
         </div>

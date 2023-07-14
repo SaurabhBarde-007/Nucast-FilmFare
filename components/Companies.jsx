@@ -7,7 +7,7 @@ import Floating from "@/components/Floating"
 const Companies = () => {
   return (
     <>
-        <div className="w-[100vw] h-[544px] flex justify-center items-start relative p-[70px] overflow-hidden">
+        <div className="w-[100vw] h-[544px] flex justify-center items-start relative p-[70px] overflow-hidden bg-black">
             <div className="w-[100%] flex justify-between items-start">
                 <div className="w-[45%] flex justify-start items-center whitespace-normal text-[40px] font-semibold ">
                     Trusted by 200+ companies around the world
