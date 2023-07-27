@@ -8,23 +8,27 @@ import Offers from "@/components/Offers"
 import ConnectUs from "@/components/ConnectUs"
 import OurWork from "@/components/OurWork"
 import CommingSoon from "@/components/CommingSoon"
+import Discuss from "@/components/Discuss"
 
 import { buttonAnim, fadeIn } from "../motion";
+import CustomerFeedback from "@/components/CustomerFeedback";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
-      <main className="w-[100vw] h-auto overflow-hidden"> 
-        {/* <Landing/>
-        <Companies/>
-        <Offers/>
-        <ConnectUs/>
-        <OurWork/> */}
-        <CommingSoon/>
+      <main className="w-[100vw] h-auto overflow-hidden">
+        <Landing />
+        <Companies />
+        <Offers />
+        <ConnectUs />
+        <OurWork />
+        <CustomerFeedback/>
+        <Discuss />
+
+        {/* <CommingSoon/> */}
       </main>
-        
     </>
   );
 }

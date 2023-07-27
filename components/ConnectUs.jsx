@@ -16,7 +16,7 @@ const ConnectUs = () => {
           <p className=" whitespace-normal text-[15px] sm:text-[18px]">
             Commodo diam vulputate dui proin quis enim nibh. Non integer ac libero facilisis hendrerit a at. Nisi sem ut sed sed faucibus at eu elit. Morbi aliquam porttitor mattis consequat neque, tellus blandit. 
           </p>
-          <button className="px-[14px] py-[8px] sm:px-[16px] sm:py-[8px] rounded-[100px] text-[#000] bg-[#FFA800]">
+          <button className="px-[14px] py-[8px] sm:px-[16px] sm:py-[8px] rounded-[100px] text-[#FFA800] border-[#FFA800] border-[1.5px]">
             Let’s connect 
           </button>
         </div>

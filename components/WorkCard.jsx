@@ -7,7 +7,7 @@ const WorkCard = (props) => {
 const {value,heading,tag} = props
   return (
     <>
-        <div className='flex flex-col justify-start items-start p-[20px] w-[324px] h-auto border-[1px] gap-[20px] border-[#fff] rounded-md'>
+        <div className='flex flex-col justify-start items-start p-[20px] w-[100%] sm:w-[324px] h-auto border-[1px] gap-[20px] border-[#fff] rounded-md'>
 
             {value && <div className='w-[100%] bg-[#8474C4] h-[140px] rounded-md'></div>}
             <div className=' rounded-md text-[14px] font-medium px-[12px] py-[4px] text-black bg-[#FFA800]'>{tag}</div>
