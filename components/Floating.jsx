@@ -7,8 +7,8 @@ const floating = (props) => {
 
   return (
     <>
-        <div className="w-[150px] px-[16px] py-[12px] bg-black border-[#fff] border-[1px] rounded-xl flex justify-center items-center flex-shrink-0">
-            <img src={src} className="w-[120px] object-cover"/>
+        <div className="w-[100px] sm:w-[150px] px-[16px] py-[12px] bg-black border-[#fff] border-[1px] rounded-xl flex justify-center items-center flex-shrink-0">
+            <img src={src} className="w-[80px] sm:w-[120px] object-cover"/>
         </div>
     </>
   )

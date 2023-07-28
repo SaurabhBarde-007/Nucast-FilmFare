@@ -8,62 +8,80 @@ const Companies = () => {
     
   return (
     <>
-        <div className="w-[100vw] h-[544px] flex justify-center items-start relative p-[70px] overflow-hidden bg-black">
-            <div className="w-[100%] flex justify-between items-start">
-                <div className="w-[45%] flex justify-start items-center whitespace-normal text-[40px] font-semibold ">
+        <div className="w-[100vw] h-[900px] sm:h-[600px] flex justify-center items-start relative p-[30px] sm:p-[70px] overflow-hidden bg-black">
+            <div className="w-[100%] flex flex-col sm:flex-row justify-between items-start gap-[30px]">
+                <div className="w-[90%] sm:w-[45%] flex justify-start items-center whitespace-normal text-[40px] font-semibold ">
                     Trusted by 200+ companies around the world
                 </div>
-                <div className="w-[45%] flex justify-start items-center whitespace-normal text-[16px] ">
+                <div className="w-[90%] sm:w-[45%] flex justify-start items-center whitespace-normal text-[16px] ">
                     Vulputate molestie molestie amet leo blandit accumsan. Sapien sed amet tellus purus sit odio eget. Diam morbi faucibus vitae neque id in. Nullam sed et dapibus nunc, porta enim orci urna, sit. Lectus ac.
                 </div>
             </div>
             
-            <div className="w-[100vw] absolute flex flex-col justify-center items-center gap-9 top-[270px] overflow-hidden">
-                <div className={`flex justify-center gap-5 overflow-hidden w-[70vw] ${styles["logos"]}`}>
-                    <div className={`flex justify-evenly w-[100vw] gap-[20px] ${styles["logosSlide"]}`}>
+            <div className="w-[100vw] absolute flex flex-col justify-center items-center gap-9 top-[100vw] sm:top-[400px] md:top-[270px] overflow-hidden">
+                <div className={`flex justify-center gap-[5px] overflow-hidden w-[70vw] ${styles["logos"]}`}>
+                    <div className={`flex flex-shrink-0 justify-evenly w-[100vw] gap-[5px] ${styles["logosSlide"]}`}>
                         <Floating src="./Frame1.png"/> 
                         <Floating src="./Frame2.png"/> 
                         <Floating src="./Frame3.png"/> 
                         <Floating src="./Frame4.png"/> 
                         <Floating src="./Frame5.png"/>  
-                   </div>
-                    <div className={`flex justify-evenly w-[100vw] gap-[20px] ${styles["logosSlide"]}`}>
-                        <Floating src="./Frame1.png"/> 
-                        <Floating src="./Frame2.png"/> 
-                        <Floating src="./Frame3.png"/> 
-                        <Floating src="./Frame4.png"/> 
-                        <Floating src="./Frame5.png"/>  
-                    </div>
-                    <div className={`flex justify-evenly w-[100vw] gap-[20px] ${styles["logosSlide"]}`}>
-                        <Floating src="./Frame1.png"/> 
-                        <Floating src="./Frame2.png"/> 
-                        <Floating src="./Frame3.png"/> 
-                        <Floating src="./Frame4.png"/> 
                         <Floating src="./Frame6.png"/>  
+                        <Floating src="./Frame5.png"/>  
+                        <Floating src="./Frame4.png"/>  
+                   </div>
+                    <div className={`flex flex-shrink-0 justify-evenly w-[100vw] gap-[20px] ${styles["logosSlide"]}`}>
+                        <Floating src="./Frame1.png"/> 
+                        <Floating src="./Frame2.png"/> 
+                        <Floating src="./Frame3.png"/> 
+                        <Floating src="./Frame4.png"/> 
+                        <Floating src="./Frame5.png"/> 
+                        <Floating src="./Frame6.png"/>  
+                        <Floating src="./Frame5.png"/>  
+                        <Floating src="./Frame4.png"/>  
+                    </div>
+                    <div className={`flex flex-shrink-0 justify-evenly w-[100vw] gap-[20px] ${styles["logosSlide"]}`}>
+                        <Floating src="./Frame1.png"/> 
+                        <Floating src="./Frame2.png"/> 
+                        <Floating src="./Frame3.png"/> 
+                        <Floating src="./Frame4.png"/> 
+                        <Floating src="./Frame5.png"/> 
+                        <Floating src="./Frame6.png"/>  
+                        <Floating src="./Frame5.png"/>  
+                        <Floating src="./Frame4.png"/>  
                     </div>
                 </div>
 
-                <div className={`flex justify-center gap-5 overflow-hidden w-[70vw] ${styles["logos"]}`}>
+                <div className={`flex flex-shrink-0 justify-center gap-5 overflow-hidden w-[70vw] ${styles["logos"]}`}>
                     <div className={`flex justify-evenly w-[100vw] gap-[20px] ${styles["logosSlide2"]}`}>
                         <Floating src="./Frame1.png"/> 
                         <Floating src="./Frame2.png"/> 
                         <Floating src="./Frame3.png"/> 
                         <Floating src="./Frame4.png"/> 
                         <Floating src="./Frame5.png"/>  
-                   </div>
-                    <div className={`flex justify-evenly w-[100vw] gap-[20px] ${styles["logosSlide2"]}`}>
-                        <Floating src="./Frame1.png"/> 
-                        <Floating src="./Frame2.png"/> 
-                        <Floating src="./Frame3.png"/> 
-                        <Floating src="./Frame4.png"/> 
-                        <Floating src="./Frame5.png"/>  
-                    </div>
-                    <div className={`flex justify-evenly w-[100vw] gap-[20px] ${styles["logosSlide2"]}`}>
-                        <Floating src="./Frame1.png"/> 
-                        <Floating src="./Frame2.png"/> 
-                        <Floating src="./Frame3.png"/> 
-                        <Floating src="./Frame4.png"/> 
                         <Floating src="./Frame6.png"/>  
+                        <Floating src="./Frame5.png"/>  
+                        <Floating src="./Frame4.png"/> 
+                   </div>
+                    <div className={`flex flex-shrink-0 justify-evenly w-[100vw] gap-[20px] ${styles["logosSlide2"]}`}>
+                        <Floating src="./Frame1.png"/> 
+                        <Floating src="./Frame2.png"/> 
+                        <Floating src="./Frame3.png"/> 
+                        <Floating src="./Frame4.png"/> 
+                        <Floating src="./Frame5.png"/> 
+                        <Floating src="./Frame6.png"/>  
+                        <Floating src="./Frame5.png"/>  
+                        <Floating src="./Frame4.png"/>  
+                    </div>
+                    <div className={`flex flex-shrink-0 justify-evenly w-[100vw] gap-[20px] ${styles["logosSlide2"]}`}>
+                        <Floating src="./Frame1.png"/> 
+                        <Floating src="./Frame2.png"/> 
+                        <Floating src="./Frame3.png"/> 
+                        <Floating src="./Frame4.png"/> 
+                        <Floating src="./Frame5.png"/>  
+                        <Floating src="./Frame6.png"/>  
+                        <Floating src="./Frame5.png"/>  
+                        <Floating src="./Frame4.png"/> 
                     </div>
                 </div>
 
