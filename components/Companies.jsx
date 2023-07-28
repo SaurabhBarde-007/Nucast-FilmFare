@@ -29,7 +29,7 @@ const Companies = () => {
                         <Floating src="./Frame6.png"/>  
                         <Floating src="./Frame5.png"/>  
                         <Floating src="./Frame4.png"/>  
-                   </div>
+                    </div>
                     <div className={`flex flex-shrink-0 justify-evenly w-[100vw] gap-[20px] ${styles["logosSlide"]}`}>
                         <Floating src="./Frame1.png"/> 
                         <Floating src="./Frame2.png"/> 
@@ -62,7 +62,7 @@ const Companies = () => {
                         <Floating src="./Frame6.png"/>  
                         <Floating src="./Frame5.png"/>  
                         <Floating src="./Frame4.png"/> 
-                   </div>
+                    </div>
                     <div className={`flex flex-shrink-0 justify-evenly w-[100vw] gap-[20px] ${styles["logosSlide2"]}`}>
                         <Floating src="./Frame1.png"/> 
                         <Floating src="./Frame2.png"/> 
