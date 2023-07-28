@@ -36,7 +36,7 @@
   animation: slide2 30s linear infinite;
 }
 
-.logos:hover {
+.logosSlide:hover, .logosSlide2:hover {
   animation-play-state: paused;
 }
 

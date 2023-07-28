@@ -5,13 +5,13 @@ import CustomerCard from "./CustomerCard";
 const CustomerFeedback = () => {
   return (
     <>
-        <div className="w-[100vw] h-auto px-[40px] py-[60px] bg-black flex flex-col justify-center items-start gap-[40px]">
+        <div className="w-[100vw] h-auto px-[20px] sm:px-[40px] py-[60px] bg-black flex flex-col justify-center items-start gap-[40px]">
             <div className="text-[30px] w-[97%] flex justify-between ">
                 <h1>Hear what our customer say :&#41;</h1>
 
                 <div className="w-auto h-auto flex justify-center items-center gap-[10px] ">
-                  <button className="text-[#] text-[#FFA800] border-[#FFA800] border-[1.5px] px-[16px] py-[4px] rounded-md ">&lt;</button>
-                  <button className="text-[#] text-[#FFA800] border-[#FFA800] border-[1.5px] px-[16px] py-[4px] rounded-md ">&gt;</button>    
+                  <button className="text-[#] text-[#FFA800] border-[#FFA800] border-[1.5px] px-[12px] py-[2px] sm:px-[16px] sm:py-[4px] rounded-md ">&lt;</button>
+                  <button className="text-[#] text-[#FFA800] border-[#FFA800] border-[1.5px] px-[12px] py-[2px] sm:px-[16px] sm:py-[4px] rounded-md ">&gt;</button>    
                 </div>
             </div>
             <div className="w-[100%] flex justify-start items-start gap-[25px] overflow-hidden">
