@@ -39,6 +39,12 @@ const CustomerFeedback = () => {
                   src={"./4.png"}
                   content="Amet aliquam, volutpat nisl, duis sed at. Vehicula proin consectetur risus dictumst nec amet consequat at tempus. Ornare dapibus nunc fames nibh morbi viverra eu sed mattis. "
                 />
+                <CustomerCard
+                  title="Arlene McCoy"
+                  subtitle="bloopixel"
+                  src={"./3.png"}
+                  content="Eu eu eget lorem commodo sagittis enim in viverra. Urna egestas ipsum gravida tempor. Libero, consectetur urna in enim magnis. Est."
+                />
                 
               
             </div>
