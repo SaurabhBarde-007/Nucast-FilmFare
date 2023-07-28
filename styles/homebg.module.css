@@ -7,30 +7,36 @@
 
 @keyframes slide{
   to{
-    transform:translateX(0);
+    transform:translateX(-100%);
   }
 
   from{
-    transform: translateX(-100%);
+    transform: translateX(0);
   }
 }
 
-/* @keyframes slide2 {
+@keyframes slide2 {
   to {
-    transform: translateX(-100%);
+    transform: translateX(0);
   }
 
   from {
-    transform: translateX(-200%);
+    transform: translateX(-100%);
   }
-} */
+}
+
 
 .logosSlide{
     white-space: nowrap;
-    animation: 10s slide infinite linear;
+    animation:slide 30s linear infinite ;
 }
 
-.logosSlide:hover {
+.logosSlide2 {
+  white-space: nowrap;
+  animation: slide2 30s linear infinite;
+}
+
+.logos:hover {
   animation-play-state: paused;
 }
 

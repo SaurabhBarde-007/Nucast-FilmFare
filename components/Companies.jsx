@@ -5,6 +5,7 @@ import Floating from "@/components/Floating"
 
 
 const Companies = () => {
+    
   return (
     <>
         <div className="w-[100vw] h-[544px] flex justify-center items-start relative p-[70px] overflow-hidden bg-black">
@@ -18,36 +19,54 @@ const Companies = () => {
             </div>
             
             <div className="w-[100vw] absolute flex flex-col justify-center items-center gap-9 top-[270px] overflow-hidden">
-                <div className={`flex justify-center gap-5 overflow-hidden w-[100vw] `}>
-                    <div className={`flex justify-evenly w-[100vw] ${styles["logosSlide"]}`}>
+                <div className={`flex justify-center gap-5 overflow-hidden w-[70vw] ${styles["logos"]}`}>
+                    <div className={`flex justify-evenly w-[100vw] gap-[20px] ${styles["logosSlide"]}`}>
                         <Floating src="./Frame1.png"/> 
                         <Floating src="./Frame2.png"/> 
                         <Floating src="./Frame3.png"/> 
                         <Floating src="./Frame4.png"/> 
-                        <Floating src="./Frame5.png"/> 
-                        <Floating src="./Frame6.png"/>   
-                    </div>
-                    <div className={`flex gap-5 ${styles["logosSlide"]}`}>
+                        <Floating src="./Frame5.png"/>  
+                   </div>
+                    <div className={`flex justify-evenly w-[100vw] gap-[20px] ${styles["logosSlide"]}`}>
                         <Floating src="./Frame1.png"/> 
                         <Floating src="./Frame2.png"/> 
                         <Floating src="./Frame3.png"/> 
                         <Floating src="./Frame4.png"/> 
-                        <Floating src="./Frame5.png"/> 
-                        <Floating src="./Frame6.png"/> 
+                        <Floating src="./Frame5.png"/>  
                     </div>
-                    
-                    
+                    <div className={`flex justify-evenly w-[100vw] gap-[20px] ${styles["logosSlide"]}`}>
+                        <Floating src="./Frame1.png"/> 
+                        <Floating src="./Frame2.png"/> 
+                        <Floating src="./Frame3.png"/> 
+                        <Floating src="./Frame4.png"/> 
+                        <Floating src="./Frame6.png"/>  
+                    </div>
                 </div>
 
-
-                <div className="flex gap-10">
-                    <Floating src="./Frame7.png"/> 
-                    <Floating src="./Frame8.png"/> 
-                    <Floating src="./Frame9.png"/> 
-                    <Floating src="./Frame10.png"/> 
-                    <Floating src="./Frame11.png"/> 
-                    <Floating src="./Frame12.png"/> 
+                <div className={`flex justify-center gap-5 overflow-hidden w-[70vw] ${styles["logos"]}`}>
+                    <div className={`flex justify-evenly w-[100vw] gap-[20px] ${styles["logosSlide2"]}`}>
+                        <Floating src="./Frame1.png"/> 
+                        <Floating src="./Frame2.png"/> 
+                        <Floating src="./Frame3.png"/> 
+                        <Floating src="./Frame4.png"/> 
+                        <Floating src="./Frame5.png"/>  
+                   </div>
+                    <div className={`flex justify-evenly w-[100vw] gap-[20px] ${styles["logosSlide2"]}`}>
+                        <Floating src="./Frame1.png"/> 
+                        <Floating src="./Frame2.png"/> 
+                        <Floating src="./Frame3.png"/> 
+                        <Floating src="./Frame4.png"/> 
+                        <Floating src="./Frame5.png"/>  
+                    </div>
+                    <div className={`flex justify-evenly w-[100vw] gap-[20px] ${styles["logosSlide2"]}`}>
+                        <Floating src="./Frame1.png"/> 
+                        <Floating src="./Frame2.png"/> 
+                        <Floating src="./Frame3.png"/> 
+                        <Floating src="./Frame4.png"/> 
+                        <Floating src="./Frame6.png"/>  
+                    </div>
                 </div>
+
                 
             </div>
         </div>
