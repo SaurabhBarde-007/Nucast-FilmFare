@@ -18,7 +18,7 @@ const Landing = () => {
                     <p className="w-[90%] sm:w-[500px] font-thin text-center sm:text-left whitespace-normal p-2 text-[15px] sm:text-[18px]">Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat scelerisque in elit. Morbi rhoncus, tellus, eros </p> 
                 </div>
                 <div className="w-[500px] flex justify-center sm:justify-start items-center mt-[25px] gap-[10px] sm:gap-8 z-50">
-                    <input type="email" className=" sm:ml-[10px] flex self-start rounded-[100px] py-[8px] px-[12px] sm:py-[12px] sm:px-[16px] bg-black border-[#fff] border-[1.5px]" placeholder="Email"/>
+                    <input type="email" className=" sm:ml-[10px] flex self-start rounded-[100px] py-[8px] px-[12px] sm:py-[12px] sm:px-[16px] bg-black border-[#fff] border-[1.5px] w-[60%]" placeholder="Email"/>
                     <button className="py-[8px] px-[12px] sm:py-[12px] sm:px-[16px] rounded-[100px] text-[#000] bg-[#FFA800]">Attract</button>
                 </div>
             </div>
