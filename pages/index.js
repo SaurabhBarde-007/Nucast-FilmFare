@@ -9,6 +9,7 @@ import ConnectUs from "@/components/ConnectUs"
 import OurWork from "@/components/OurWork"
 import CommingSoon from "@/components/CommingSoon"
 import Discuss from "@/components/Discuss"
+import Footer from "@/components/Footer"
 
 import { buttonAnim, fadeIn } from "../motion";
 import CustomerFeedback from "@/components/CustomerFeedback";
@@ -26,6 +27,7 @@ export default function Home() {
         <OurWork />
         <CustomerFeedback/>
         <Discuss />
+        <Footer/>
 
         {/* <CommingSoon/> */}
       </main>
