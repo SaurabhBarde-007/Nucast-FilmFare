@@ -14,7 +14,7 @@ const CustomerFeedback = () => {
                   <button className="text-[#] text-[#FFA800] border-[#FFA800] border-[1.5px] px-[16px] py-[4px] rounded-md ">&gt;</button>    
                 </div>
             </div>
-            <div className="w-[100%] flex justify-start items-start gap-[20px] flex-shrink-0">
+            <div className="w-[100%] flex justify-start items-start gap-[25px] overflow-hidden">
                 <CustomerCard
                   title="Brooklyn Simmons"
                   subtitle="manam"
